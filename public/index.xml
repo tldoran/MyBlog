@@ -14,39 +14,43 @@
       
       <guid>/showcase/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
-&lt;pre&gt;&lt;code&gt;      &amp;lt;!-- Display the post description or a truncated content preview --&amp;gt;
-      &amp;lt;div class=&amp;quot;post-description&amp;quot;&amp;gt;
-        {{ if .Description }}
-          &amp;lt;p&amp;gt;{{ .Description }}&amp;lt;/p&amp;gt;
-        {{ else }}
-          &amp;lt;p&amp;gt;{{ .Content | truncate 150 }}...&amp;lt;/p&amp;gt;
-        {{ end }}
-      &amp;lt;/div&amp;gt;
-
-      &amp;lt;!-- Link to full post --&amp;gt;
-      &amp;lt;a href=&amp;quot;{{ .Permalink }}&amp;quot; class=&amp;quot;read-more&amp;quot;&amp;gt;Read More&amp;lt;/a&amp;gt;
-    &amp;lt;/article&amp;gt;
-  {{ end }}
-{{ end }}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;!-- raw HTML omitted --&gt;</description>
-      <content>&lt;!-- raw HTML omitted --&gt;
-&lt;pre&gt;&lt;code&gt;      &amp;lt;!-- Display the post description or a truncated content preview --&amp;gt;
-      &amp;lt;div class=&amp;quot;post-description&amp;quot;&amp;gt;
-        {{ if .Description }}
-          &amp;lt;p&amp;gt;{{ .Description }}&amp;lt;/p&amp;gt;
-        {{ else }}
-          &amp;lt;p&amp;gt;{{ .Content | truncate 150 }}...&amp;lt;/p&amp;gt;
-        {{ end }}
-      &amp;lt;/div&amp;gt;
-
-      &amp;lt;!-- Link to full post --&amp;gt;
-      &amp;lt;a href=&amp;quot;{{ .Permalink }}&amp;quot; class=&amp;quot;read-more&amp;quot;&amp;gt;Read More&amp;lt;/a&amp;gt;
-    &amp;lt;/article&amp;gt;
-  {{ end }}
-{{ end }}
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;{{ range .Site.RegularPages }}
+{{ if eq .Section &amp;ldquo;posts&amp;rdquo; }} &lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;{{ .Title }}&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  &amp;lt;!-- Show description if available or a truncated preview of the content --&amp;gt;
+  &amp;lt;p&amp;gt;
+    {{ if .Description }}
+      {{ .Description }}
+    {{ else }}
+      {{ .Content | truncate 150 }}...
+    {{ end }}
+  &amp;lt;/p&amp;gt;
+
+  &amp;lt;a href=&amp;quot;{{ .Permalink }}&amp;quot; class=&amp;quot;read-more&amp;quot;&amp;gt;Read More&amp;lt;/a&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;{{ end }}
+{{ end }}&lt;/p&gt;</description>
+      <content>&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;{{ range .Site.RegularPages }}
+{{ if eq .Section &amp;ldquo;posts&amp;rdquo; }} &lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;{{ .Title }}&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  &amp;lt;!-- Show description if available or a truncated preview of the content --&amp;gt;
+  &amp;lt;p&amp;gt;
+    {{ if .Description }}
+      {{ .Description }}
+    {{ else }}
+      {{ .Content | truncate 150 }}...
+    {{ end }}
+  &amp;lt;/p&amp;gt;
+
+  &amp;lt;a href=&amp;quot;{{ .Permalink }}&amp;quot; class=&amp;quot;read-more&amp;quot;&amp;gt;Read More&amp;lt;/a&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;{{ end }}
+{{ end }}&lt;/p&gt;
 </content>
     </item>
     
