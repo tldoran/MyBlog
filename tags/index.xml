@@ -8,31 +8,31 @@
     <language>en</language>
     <lastBuildDate>Thu, 09 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Tag1</title>
-      <link>/tags/tag1/</link>
+      <title>Blog</title>
+      <link>/tags/blog/</link>
       <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>/tags/tag1/</guid>
+      <guid>/tags/blog/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
-      <title>Tag2</title>
-      <link>/tags/tag2/</link>
+      <title>Brain</title>
+      <link>/tags/brain/</link>
       <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>/tags/tag2/</guid>
+      <guid>/tags/brain/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
-      <title>Tag3</title>
-      <link>/tags/tag3/</link>
+      <title>Creativity</title>
+      <link>/tags/creativity/</link>
       <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>/tags/tag3/</guid>
+      <guid>/tags/creativity/</guid>
       <description></description>
       <content></content>
     </item>
