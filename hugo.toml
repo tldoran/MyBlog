@@ -6,6 +6,7 @@ theme = "terminal"
 paginate = 5
 
 [params]
+
   # dir name of your main content (default is `content/posts`).
   # the list of set content will show up on your index page (baseurl).
   contentTypeName = "posts"
@@ -90,8 +91,4 @@ paginate = 5
 [permalinks]
   post = "/posts/:year/:month/:day/:slug/"
 
-[menu]
-  [[menu.main]]
-    name = "About"
-    url = "/posts/about"
-    weight = 1
+
