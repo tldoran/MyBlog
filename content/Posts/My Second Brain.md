@@ -1,18 +1,17 @@
 ---
-title: Post Formatter
+title: My Second Brain
 excludeFmHome: false
 date: 2025-01-09
 author: Oran Dennehy
-description: A short description of the post
-readTime: ⏱️ 2 min
+description: "My new blog pipeline: For clarity and creation"
+readTime: ⏱️ 3 min
 tags:
-  - tag1
-  - tag2
-  - tag3
+  - Blog
+  - Creativity
+  - Brain
 categories:
-  - category1
-  - category2
-featured: false
+  - Pipeline
+featured: true
 hidden: false
 draft: false
 ---
