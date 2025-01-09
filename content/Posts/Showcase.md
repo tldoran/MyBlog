@@ -3,6 +3,7 @@ title: "Showcase"
 date: 2025-01-09
 showcasePage: true
 ---
+
 <div class="showcase">
   <h1>Showcase</h1>
   <div class="post-previews">
