@@ -7,13 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language><atom:link href="/tags/tag1/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About</title>
-      <link>/posts/about/</link>
+      <title>My Second Brain</title>
+      <link>/posts/my-second-brain/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/posts/about/</guid>
-      <description>&lt;p&gt;This is the about page !&lt;/p&gt;</description>
-      <content>&lt;p&gt;This is the about page !&lt;/p&gt;
+      <guid>/posts/my-second-brain/</guid>
+      <description>&lt;h1 id=&#34;hello-and-welcome-welcome-to-my-second-brain-my-new-blog-pipeline&#34;&gt;Hello and Welcome. Welcome to my second brain, my new blog pipeline&amp;hellip;&lt;/h1&gt;
+&lt;p&gt;During the last week I have spent a lot of time cooed up at home. Myself, my laptop and some AI&amp;rsquo;s.&lt;/p&gt;
+&lt;p&gt;It has helped me understand how vital of a time it is for all of us to portray what is in our minds and turn that into digestible content for ourselves. To create.&lt;/p&gt;
+&lt;p&gt;Our brains aren&amp;rsquo;t made for holding onto information, if that were the case, we&amp;rsquo;d be caught up reading the same book each day, trying to hold onto futile details.&lt;/p&gt;</description>
+      <content>&lt;h1 id=&#34;hello-and-welcome-welcome-to-my-second-brain-my-new-blog-pipeline&#34;&gt;Hello and Welcome. Welcome to my second brain, my new blog pipeline&amp;hellip;&lt;/h1&gt;
+&lt;p&gt;During the last week I have spent a lot of time cooed up at home. Myself, my laptop and some AI&amp;rsquo;s.&lt;/p&gt;
+&lt;p&gt;It has helped me understand how vital of a time it is for all of us to portray what is in our minds and turn that into digestible content for ourselves. To create.&lt;/p&gt;
+&lt;p&gt;Our brains aren&amp;rsquo;t made for holding onto information, if that were the case, we&amp;rsquo;d be caught up reading the same book each day, trying to hold onto futile details.&lt;/p&gt;
+&lt;p&gt;I believe that it is better to let go&amp;hellip;&lt;/p&gt;
+&lt;p&gt;As we near towards a time of AGI (Artificial General Intelligence), we must try and understand ourselves (and the robots), to make meaningful decisions for the future and fate of humanity.&lt;/p&gt;
+&lt;p&gt;There has never been a time where we so desperately need to try and find out who we are, what we stand for what are our goals are, what is important to US.&lt;/p&gt;
+&lt;p&gt;Having a clear path in mind doesn&amp;rsquo;t guarantee success, but not having one ought to guarantee failure.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;I was inspired by an idol of mine: &lt;a href=&#34;https://www.youtube.com/watch?v=dnE7c0ELEH8&#34;&gt;NetworkChuck&lt;/a&gt;, to setup my own blog pipeline.
+&lt;img src=&#34;/images/download%20%282%29.jpeg&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I did this through using: &lt;a href=&#34;https://obsidian.md/download&#34;&gt;obsidian&lt;/a&gt; as my new note taking tool, paired with the &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; framework for deploying lightweight websites. I used the terminal Hugo theme (for my fellow tech enthusiasts) !&lt;/p&gt;
+&lt;p&gt;Access my &lt;a href=&#34;https://github.com/tldoran/MyBlog&#34;&gt;Github files&lt;/a&gt; for this project if you&amp;rsquo;d like to create something similar !&lt;/p&gt;
 </content>
     </item>
     
