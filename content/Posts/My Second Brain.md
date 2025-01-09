@@ -1,10 +1,10 @@
 ---
-title: My Second Brain
+title: Post Formatter
 excludeFmHome: false
-date: 2025-09-01
+date: 2025-01-09
 author: Oran Dennehy
-description: A new blog pipeline, for creation
-readTime: ⏱️
+description: A short description of the post
+readTime: ⏱️ 2 min
 tags:
   - tag1
   - tag2
@@ -42,5 +42,6 @@ I was inspired by an idol of mine: [NetworkChuck](https://www.youtube.com/watch?
 I did this through using: [obsidian](https://obsidian.md/download) as my new note taking tool, paired with the [Hugo](https://gohugo.io/) framework for deploying lightweight websites. I used the terminal Hugo theme (for my fellow tech enthusiasts) !
 
 Access my [Github files](https://github.com/tldoran/MyBlog) for this project if you'd like to create something similar !
+
 
 
