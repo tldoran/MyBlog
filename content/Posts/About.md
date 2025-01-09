@@ -4,7 +4,7 @@ excludeFmHome: false
 date: 
 author: Oran Dennehy
 description: A short description of the post
-readTime: ⏱️
+readTime: ⏱️ 2 min
 tags:
   - tag1
   - tag2
