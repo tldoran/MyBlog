@@ -5,19 +5,7 @@
     <link>/</link>
     <description>Recent content on Terminal</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Thu, 09 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Showcase</title>
-      <link>/posts/showcase/</link>
-      <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/showcase/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;</description>
-      <content>&lt;!-- raw HTML omitted --&gt;
-</content>
-    </item>
-    
+    <language>en</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
       <link>/posts/about/</link>
@@ -26,6 +14,49 @@
       <guid>/posts/about/</guid>
       <description>&lt;p&gt;This is the about page !&lt;/p&gt;</description>
       <content>&lt;p&gt;This is the about page !&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Showcase</title>
+      <link>/posts/showcase/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/showcase/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;pre&gt;&lt;code&gt;      &amp;lt;!-- Display the post description or a truncated content preview --&amp;gt;
+      &amp;lt;div class=&amp;quot;post-description&amp;quot;&amp;gt;
+        {{ if .Description }}
+          &amp;lt;p&amp;gt;{{ .Description }}&amp;lt;/p&amp;gt;
+        {{ else }}
+          &amp;lt;p&amp;gt;{{ .Content | truncate 150 }}...&amp;lt;/p&amp;gt;
+        {{ end }}
+      &amp;lt;/div&amp;gt;
+
+      &amp;lt;!-- Link to full post --&amp;gt;
+      &amp;lt;a href=&amp;quot;{{ .Permalink }}&amp;quot; class=&amp;quot;read-more&amp;quot;&amp;gt;Read More&amp;lt;/a&amp;gt;
+    &amp;lt;/article&amp;gt;
+  {{ end }}
+{{ end }}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;!-- raw HTML omitted --&gt;</description>
+      <content>&lt;!-- raw HTML omitted --&gt;
+&lt;pre&gt;&lt;code&gt;      &amp;lt;!-- Display the post description or a truncated content preview --&amp;gt;
+      &amp;lt;div class=&amp;quot;post-description&amp;quot;&amp;gt;
+        {{ if .Description }}
+          &amp;lt;p&amp;gt;{{ .Description }}&amp;lt;/p&amp;gt;
+        {{ else }}
+          &amp;lt;p&amp;gt;{{ .Content | truncate 150 }}...&amp;lt;/p&amp;gt;
+        {{ end }}
+      &amp;lt;/div&amp;gt;
+
+      &amp;lt;!-- Link to full post --&amp;gt;
+      &amp;lt;a href=&amp;quot;{{ .Permalink }}&amp;quot; class=&amp;quot;read-more&amp;quot;&amp;gt;Read More&amp;lt;/a&amp;gt;
+    &amp;lt;/article&amp;gt;
+  {{ end }}
+{{ end }}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;!-- raw HTML omitted --&gt;
 </content>
     </item>
     
