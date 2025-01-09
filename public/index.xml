@@ -5,7 +5,19 @@
     <link>/</link>
     <description>Recent content on Terminal</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Thu, 09 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Showcase</title>
+      <link>/showcase/</link>
+      <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>/showcase/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;</description>
+      <content>&lt;!-- raw HTML omitted --&gt;
+</content>
+    </item>
+    
     <item>
       <title>About</title>
       <link>/posts/about/</link>
@@ -14,17 +26,6 @@
       <guid>/posts/about/</guid>
       <description>&lt;p&gt;This is the about page !&lt;/p&gt;</description>
       <content>&lt;p&gt;This is the about page !&lt;/p&gt;
-</content>
-    </item>
-    
-    <item>
-      <title>Showcase</title>
-      <link>/posts/showcase/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/showcase/</guid>
-      <description>&lt;p&gt;Here are some featured posts:&lt;/p&gt;</description>
-      <content>&lt;p&gt;Here are some featured posts:&lt;/p&gt;
 </content>
     </item>
     
