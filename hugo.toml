@@ -89,3 +89,9 @@ paginate = 5
   
 [permalinks]
   post = "/posts/:year/:month/:day/:slug/"
+
+[menu]
+  [[menu.main]]
+    name = "About"
+    url = "/posts/about"
+    weight = 1
