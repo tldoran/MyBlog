@@ -80,4 +80,4 @@ paginate = 5
         [[languages.en.menu.main]]
           identifier = "showcase"
           name = "Showcase"
-          url = "/showcase/showcase"
+          url = "/posts/showcase"
