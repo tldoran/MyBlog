@@ -1,14 +1,20 @@
 ---
-title: Showcase
+title: Post Formatter
 excludeFmHome: true
 date: 
 author: Oran Dennehy
-description: Welcome to the publications showcase
-readTime: ⏱️
-tags: 
-categories: 
+description: Showcase Description
+readTime: ⏱️ 2 min
+tags:
+  - tag1
+  - tag2
+  - tag3
+categories:
+  - category1
+  - category2
 featured: false
 draft: false
+hidden: true
 ---
 
 Here are some featured posts: 
