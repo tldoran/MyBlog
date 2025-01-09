@@ -1,10 +1,10 @@
 ---
-title: Test Post
+title: Second
 excludeFmHome: false
 date: 
 author: Oran Dennehy
-description: A short description of the post
-readTime: ⏱️
+description: DECRIPTIOPN
+readTime: ⏱️ 1 min
 tags:
   - tag1
   - tag2
@@ -12,8 +12,8 @@ tags:
 categories:
   - category1
   - category2
-featured: true
+featured: false
 draft: false
 ---
 
-this is a test post
+This is another test
