@@ -8,26 +8,6 @@
     <language>en</language>
     <lastBuildDate>Thu, 09 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Category1</title>
-      <link>/categories/category1/</link>
-      <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/category1/</guid>
-      <description></description>
-      <content></content>
-    </item>
-    
-    <item>
-      <title>Category2</title>
-      <link>/categories/category2/</link>
-      <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/category2/</guid>
-      <description></description>
-      <content></content>
-    </item>
-    
-    <item>
       <title>Pipeline</title>
       <link>/categories/pipeline/</link>
       <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
