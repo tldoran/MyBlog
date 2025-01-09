@@ -41,11 +41,11 @@ paginate = 5
   # Can be overridden in a page's front-matter.
   TocTitle = "Table of Contents"
 
-[params.twitter]
-  # Set Twitter handles for Twitter cards.
-  # Do not include @.
-  creator = ""
-  site = ""
+  [params.social]
+    instagram = "https://instagram.com/your_username"
+    linkedin = "https://linkedin.com/in/your_username"
+    github = "https://github.com/your_username"
+    gmail = "https://tldoran@duck.com"
 
 [languages]
   [languages.en]
