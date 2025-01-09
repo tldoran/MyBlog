@@ -3,16 +3,18 @@ title: My Second Brain
 excludeFmHome: false
 date: 2025-09-01
 author: Oran Dennehy
-description: A blog pipeline, for everyday use
-readTime: ⏱️ 4 min
+description: A new blog pipeline, for creation
+readTime: ⏱️
 tags:
-  - blog
-  - brain
-  - writing
-categories: 
-featured: true
+  - tag1
+  - tag2
+  - tag3
+categories:
+  - category1
+  - category2
+featured: false
 hidden: false
-showcasePage:
+draft: false
 ---
 
 # Hello and Welcome. Welcome to my second brain, my new blog pipeline...
@@ -40,4 +42,5 @@ I was inspired by an idol of mine: [NetworkChuck](https://www.youtube.com/watch?
 I did this through using: [obsidian](https://obsidian.md/download) as my new note taking tool, paired with the [Hugo](https://gohugo.io/) framework for deploying lightweight websites. I used the terminal Hugo theme (for my fellow tech enthusiasts) !
 
 Access my [Github files](https://github.com/tldoran/MyBlog) for this project if you'd like to create something similar !
+
 
