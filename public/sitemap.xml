@@ -2,10 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/posts/</loc>
-    <lastmod>2025-01-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/posts/showcase/</loc>
+    <loc>/showcase/</loc>
     <lastmod>2025-01-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/</loc>
@@ -18,6 +15,8 @@
     <loc>/categories/category1/</loc>
   </url><url>
     <loc>/categories/category2/</loc>
+  </url><url>
+    <loc>/posts/</loc>
   </url><url>
     <loc>/tags/tag1/</loc>
   </url><url>
