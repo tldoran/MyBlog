@@ -175,96 +175,46 @@
     
       
     
-
     
 
     
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="/showcase/"></a>
-        </h2>
+      
+      
+        <article class="post on-list">
+          <h2 class="post-title">
+            <a href="/posts/about/">About</a>
+          </h2>
 
-        <div class="post-meta"></div>
+          <div class="post-meta"><span class="post-author">Oran Dennehy</span><span class="post-reading-time">⏱️ 2 min </span></div>
 
-        
-
-        <div class="post-content">
           
-            <!DOCTYPE html>
-<html>
-<head>
-  <title>Showcase</title>
-</head>
-<body>
-  <h1>Showcase</h1>
-  <div class="posts">
-    {{ $allPosts := where .Site.Pages "Type" "posts" }}
-    {{ range $allPosts }}
-      <article class="post-preview">
-        <h2>
-          <a href="{{ .Permalink }}">{{ .Title }}</a>
-        </h2>
-        <div class="post-meta">
-          {{- if .Date -}}
-            <time>{{ .Date.Format "Jan 2, 2006" }}</time>
-          {{- end -}}
-        </div>
-        <div class="post-summary">
-          {{ if .Description }}
-            <p>{{ .Description }}</p>
-          {{ else }}
-            <p>{{ .Summary }}</p>
-          {{ end }}
-        </div>
-        <a class="read-more" href="{{ .Permalink }}">Read More</a>
-      </article>
-    {{ end }}
-  </div>
-</body>
-</html>
           
-        </div>
+            <span class="post-tags">
+              
+              #<a href="/tags/tag1/">tag1</a>&nbsp;
+              
+              #<a href="/tags/tag2/">tag2</a>&nbsp;
+              
+              #<a href="/tags/tag3/">tag3</a>&nbsp;
+              
+            </span>
+          
 
-        
-          <div>
-            <a class="read-more button inline" href="/showcase/">Read more</a>
+          
+          <div class="post-preview">
+            
+              <p>A short description of the post</p>
+            
           </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="/posts/about/">About</a>
-        </h2>
 
-        <div class="post-meta"><span class="post-author">Oran Dennehy</span></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="/tags/tag1/">tag1</a>&nbsp;
-            
-            #<a href="/tags/tag2/">tag2</a>&nbsp;
-            
-            #<a href="/tags/tag3/">tag3</a>&nbsp;
-            
-          </span>
-        
-
-        <div class="post-content">
-          
-            <p>A short description of the post</p>
-          
-        </div>
-
-        
           <div>
             <a class="read-more button inline" href="/posts/about/">Read more</a>
           </div>
-        
-      </article>
+        </article>
+      
     
 
+    
     <div class="pagination">
   <div class="pagination__buttons">
     
