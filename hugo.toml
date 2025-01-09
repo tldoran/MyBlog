@@ -5,8 +5,6 @@ paginate = 5
 
 [params]
 
-  excludeShowcaseFromHome = true
-
   # Directory name of your main content (default is `content/posts`).
   # The list of set content will show up on your index page (baseurl).
   contentTypeName = "posts"
