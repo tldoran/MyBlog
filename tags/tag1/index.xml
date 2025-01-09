@@ -17,16 +17,5 @@
 </content>
     </item>
     
-    <item>
-      <title>Showcase</title>
-      <link>/posts/showcase/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/showcase/</guid>
-      <description>&lt;p&gt;Here are some featured posts:&lt;/p&gt;</description>
-      <content>&lt;p&gt;Here are some featured posts:&lt;/p&gt;
-</content>
-    </item>
-    
   </channel>
 </rss>
