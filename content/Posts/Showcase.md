@@ -1,7 +1,7 @@
 ---
 title: "Showcase"
+date: 2025-01-09
 showcasePage: true
-excludeFmHome: false
 ---
 
 <div class="showcase">
