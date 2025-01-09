@@ -12,7 +12,7 @@
   </url><url>
     <loc>/posts/</loc>
   </url><url>
-    <loc>/posts/second/</loc>
+    <loc>/posts/showcase/</loc>
   </url><url>
     <loc>/tags/tag1/</loc>
   </url><url>
@@ -23,7 +23,5 @@
     <loc>/tags/</loc>
   </url><url>
     <loc>/</loc>
-  </url><url>
-    <loc>/posts/first/</loc>
   </url>
 </urlset>
