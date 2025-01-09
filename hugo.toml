@@ -82,13 +82,12 @@ paginate = 5
         [[languages.en.menu.main]]
           identifier = "about"
           name = "About"
-          url = "/about"
+          url = "/posts/about"
         [[languages.en.menu.main]]
           identifier = "showcase"
           name = "Showcase"
           url = "/showcase"
   
-[permalinks]
-  post = "/posts/:year/:month/:day/:slug/"
+
 
 
