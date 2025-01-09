@@ -8,13 +8,14 @@
     <language>en</language>
     <lastBuildDate>Thu, 09 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="/tags/tag1/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Final Test for About</title>
+      <title>About Page</title>
       <link>/posts/about/</link>
       <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
       
       <guid>/posts/about/</guid>
-      <description></description>
-      <content></content>
+      <description>&lt;p&gt;Welcome! This page is under construction still. Nothing interesting to be found here.&lt;/p&gt;</description>
+      <content>&lt;p&gt;Welcome! This page is under construction still. Nothing interesting to be found here.&lt;/p&gt;
+</content>
     </item>
     
   </channel>

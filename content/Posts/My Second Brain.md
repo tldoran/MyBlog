@@ -3,8 +3,8 @@ title: My Second Brain
 excludeFmHome: false
 date: 2025-01-09
 author: Oran Dennehy
-description: "My new blog pipeline: For clarity and creation"
-readTime: ⏱️ 3 min
+description: "My new Blog pipeline: For Clarity and Creation"
+readTime: ⏱️ 2 min
 tags:
   - Blog
   - Creativity
@@ -16,7 +16,7 @@ hidden: false
 draft: false
 ---
 
-# Hello and Welcome. Welcome to my second brain, my new blog pipeline...
+## Hello and Welcome. Welcome to my second brain, my new blog pipeline...
 
 
 During the last week I have spent a lot of time cooed up at home. Myself, my laptop and some AI's.
@@ -27,7 +27,9 @@ Our brains aren't made for holding onto information, if that were the case, we'd
 
 I believe that it is better to let go...
 
-As we near towards a time of AGI (Artificial General Intelligence), we must try and understand ourselves (and the robots), to make meaningful decisions for the future and fate of humanity.
+---
+
+### As we near towards a time of AGI (Artificial General Intelligence), we must try and understand ourselves (and the robots), to make meaningful decisions for the future and fate of humanity.
 
 There has never been a time where we so desperately need to try and find out who we are, what we stand for what are our goals are, what is important to US.
 
