@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Showcase</title>
+</head>
+<body>
+  <h1>Showcase</h1>
+  <div class="posts">
+    {{ $allPosts := where .Site.Pages "Type" "posts" }}
+    {{ range $allPosts }}
+      <article class="post-preview">
+        <h2>
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+        </h2>
+        <div class="post-meta">
+          {{- if .Date -}}
+            <time>{{ .Date.Format "Jan 2, 2006" }}</time>
+          {{- end -}}
+        </div>
+        <div class="post-summary">
+          {{ if .Description }}
+            <p>{{ .Description }}</p>
+          {{ else }}
+            <p>{{ .Summary }}</p>
+          {{ end }}
+        </div>
+        <a class="read-more" href="{{ .Permalink }}">Read More</a>
+      </article>
+    {{ end }}
+  </div>
+</body>
+</html>

@@ -2,11 +2,13 @@
 <html lang="en">
 <head>
   
-    <title>Showcases :: Terminal</title>
+    <title> :: Terminal</title>
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="" />
+<meta name="description" content="&lt;!DOCTYPE html&gt; Showcase Showcase {{ $allPosts := where .Site.Pages &#34;Type&#34; &#34;posts&#34; }} {{ range $allPosts }} {{ .Title }} {{- if .Date -}} {{ .Date.Format &#34;Jan 2, 2006&#34; }} {{- end -}} {{ if .Description }} {{ .Description }}
+{{ else }} {{ .Summary }}
+{{ end }} Read More {{ end }} " />
 <meta name="keywords" content="" />
 
   <meta name="robots" content="noodp" />
@@ -79,9 +81,11 @@
 
 
 <meta property="og:locale" content="en" />
-<meta property="og:type" content="website" />
-<meta property="og:title" content="Showcases">
-<meta property="og:description" content="" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="">
+<meta property="og:description" content="&lt;!DOCTYPE html&gt; Showcase Showcase {{ $allPosts := where .Site.Pages &#34;Type&#34; &#34;posts&#34; }} {{ range $allPosts }} {{ .Title }} {{- if .Date -}} {{ .Date.Format &#34;Jan 2, 2006&#34; }} {{- end -}} {{ if .Description }} {{ .Description }}
+{{ else }} {{ .Summary }}
+{{ end }} Read More {{ end }} " />
 <meta property="og:url" content="/showcase/" />
 <meta property="og:site_name" content="Terminal" />
 
@@ -93,8 +97,6 @@
 
 
 
-
-  <link href="/showcase/index.xml" rel="alternate" type="application/rss+xml" title="Terminal" />
 
 
 
@@ -166,41 +168,63 @@
 
   <div class="content">
     
-  <section class="showcase">
-    <h1>Showcases</h1>
-    <p></p>
-    
-    <div class="showcase__posts">
-      
-        <article class="post-preview">
-          <h2><a href="/showcase/showcase/"></a></h2>
-          <p><!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<pre><code>    &lt;!-- Show description if available or a truncated preview of the content --&gt;
-    &lt;div class=&quot;post-description&quot;&gt;
-      {{ if .Description }}
-        &lt;p&gt;{{ .Description }}&lt;/p&gt;
-      {{ else }}
-        &lt;p&gt;{{ .Content | truncate 150 }}...&lt;/p&gt;
-      {{ end }}
-    &lt;/div&gt;
+<article class="post">
+  <h1 class="post-title">
+    <a href="/showcase/"></a>
+  </h1>
+  <div class="post-meta">
+      <span class="post-reading-time">1 min read</span></div>
 
-    &lt;!-- Link to full post --&gt;
-    &lt;a href=&quot;{{ .Permalink }}&quot; class=&quot;read-more&quot;&gt;Read More&lt;/a&gt;
-  &lt;/article&gt;
-{{ end }}
-</code></pre>
-<p>{{ end }}</p>
-<!-- raw HTML omitted --></p>
-        </article>
-      
-        <article class="post-preview">
-          <h2><a href="/posts/about/">About</a></h2>
-          <p><p>This is the about page !</p></p>
-        </article>
-      
-    </div>
-  </section>
+  
+
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <!DOCTYPE html>
+<html>
+<head>
+  <title>Showcase</title>
+</head>
+<body>
+  <h1>Showcase</h1>
+  <div class="posts">
+    {{ $allPosts := where .Site.Pages "Type" "posts" }}
+    {{ range $allPosts }}
+      <article class="post-preview">
+        <h2>
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+        </h2>
+        <div class="post-meta">
+          {{- if .Date -}}
+            <time>{{ .Date.Format "Jan 2, 2006" }}</time>
+          {{- end -}}
+        </div>
+        <div class="post-summary">
+          {{ if .Description }}
+            <p>{{ .Description }}</p>
+          {{ else }}
+            <p>{{ .Summary }}</p>
+          {{ end }}
+        </div>
+        <a class="read-more" href="{{ .Permalink }}">Read More</a>
+      </article>
+    {{ end }}
+  </div>
+</body>
+</html>
+
+      </div></div>
+
+  
+
+  
+    
+
+  
+</article>
 
   </div>
 

@@ -7,6 +7,79 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title></title>
+      <link>/showcase/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/showcase/</guid>
+      <description>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Showcase&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Showcase&lt;/h1&gt;
+  &lt;div class=&#34;posts&#34;&gt;
+    {{ $allPosts := where .Site.Pages &#34;Type&#34; &#34;posts&#34; }}
+    {{ range $allPosts }}
+      &lt;article class=&#34;post-preview&#34;&gt;
+        &lt;h2&gt;
+          &lt;a href=&#34;{{ .Permalink }}&#34;&gt;{{ .Title }}&lt;/a&gt;
+        &lt;/h2&gt;
+        &lt;div class=&#34;post-meta&#34;&gt;
+          {{- if .Date -}}
+            &lt;time&gt;{{ .Date.Format &#34;Jan 2, 2006&#34; }}&lt;/time&gt;
+          {{- end -}}
+        &lt;/div&gt;
+        &lt;div class=&#34;post-summary&#34;&gt;
+          {{ if .Description }}
+            &lt;p&gt;{{ .Description }}&lt;/p&gt;
+          {{ else }}
+            &lt;p&gt;{{ .Summary }}&lt;/p&gt;
+          {{ end }}
+        &lt;/div&gt;
+        &lt;a class=&#34;read-more&#34; href=&#34;{{ .Permalink }}&#34;&gt;Read More&lt;/a&gt;
+      &lt;/article&gt;
+    {{ end }}
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</description>
+      <content>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Showcase&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Showcase&lt;/h1&gt;
+  &lt;div class=&#34;posts&#34;&gt;
+    {{ $allPosts := where .Site.Pages &#34;Type&#34; &#34;posts&#34; }}
+    {{ range $allPosts }}
+      &lt;article class=&#34;post-preview&#34;&gt;
+        &lt;h2&gt;
+          &lt;a href=&#34;{{ .Permalink }}&#34;&gt;{{ .Title }}&lt;/a&gt;
+        &lt;/h2&gt;
+        &lt;div class=&#34;post-meta&#34;&gt;
+          {{- if .Date -}}
+            &lt;time&gt;{{ .Date.Format &#34;Jan 2, 2006&#34; }}&lt;/time&gt;
+          {{- end -}}
+        &lt;/div&gt;
+        &lt;div class=&#34;post-summary&#34;&gt;
+          {{ if .Description }}
+            &lt;p&gt;{{ .Description }}&lt;/p&gt;
+          {{ else }}
+            &lt;p&gt;{{ .Summary }}&lt;/p&gt;
+          {{ end }}
+        &lt;/div&gt;
+        &lt;a class=&#34;read-more&#34; href=&#34;{{ .Permalink }}&#34;&gt;Read More&lt;/a&gt;
+      &lt;/article&gt;
+    {{ end }}
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
+    </item>
+    
+    <item>
       <title>About</title>
       <link>/posts/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
