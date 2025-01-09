@@ -10,7 +10,7 @@ tags:
   - brain
   - writing
 categories: 
-featured: false
+featured: true
 hidden: false
 showcasePage:
 ---
