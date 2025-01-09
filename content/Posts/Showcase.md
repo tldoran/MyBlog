@@ -9,7 +9,7 @@ excludeFmHome: true
   <h1>Showcase</h1>
   <div class="post-previews">
     {{ range where .Site.RegularPages "Section" "posts" }}
-      {{ if not .Params.excludeFromHome }}
+      {{ if not .Params.excludeFromHome }} <!-- Exclude posts with excludeFromHome: true -->
         <article class="post-preview">
           <h2 class="post-title">
             <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
