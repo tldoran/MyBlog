@@ -1,5 +1,5 @@
 ---
-title: Post Formatter
+title: Showcase
 excludeFmHome: true
 date: 
 author: Oran Dennehy
