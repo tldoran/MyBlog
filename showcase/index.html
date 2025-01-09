@@ -6,7 +6,9 @@
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content=" &lt;!-- Display the post description or a truncated content preview --&gt; &lt;div class=&quot;post-description&quot;&gt; {{ if .Description }} &lt;p&gt;{{ .Description }}&lt;/p&gt; {{ else }} &lt;p&gt;{{ .Content | truncate 150 }}...&lt;/p&gt; {{ end }} &lt;/div&gt; &lt;!-- Link to full post --&gt; &lt;a href=&quot;{{ .Permalink }}&quot; class=&quot;read-more&quot;&gt;Read More&lt;/a&gt; &lt;/article&gt; {{ end }} {{ end }} " />
+<meta name="description" content=" {{ range .Site.RegularPages }} {{ if eq .Section &ldquo;posts&rdquo; }} {{ .Title }}
+&lt;!-- Show description if available or a truncated preview of the content --&gt; &lt;p&gt; {{ if .Description }} {{ .Description }} {{ else }} {{ .Content | truncate 150 }}... {{ end }} &lt;/p&gt; &lt;a href=&quot;{{ .Permalink }}&quot; class=&quot;read-more&quot;&gt;Read More&lt;/a&gt; &lt;/div&gt; {{ end }} {{ end }}
+" />
 <meta name="keywords" content="" />
 
   <meta name="robots" content="noodp" />
@@ -81,7 +83,9 @@
 <meta property="og:locale" content="en" />
 <meta property="og:type" content="article" />
 <meta property="og:title" content="Showcase">
-<meta property="og:description" content=" &lt;!-- Display the post description or a truncated content preview --&gt; &lt;div class=&quot;post-description&quot;&gt; {{ if .Description }} &lt;p&gt;{{ .Description }}&lt;/p&gt; {{ else }} &lt;p&gt;{{ .Content | truncate 150 }}...&lt;/p&gt; {{ end }} &lt;/div&gt; &lt;!-- Link to full post --&gt; &lt;a href=&quot;{{ .Permalink }}&quot; class=&quot;read-more&quot;&gt;Read More&lt;/a&gt; &lt;/article&gt; {{ end }} {{ end }} " />
+<meta property="og:description" content=" {{ range .Site.RegularPages }} {{ if eq .Section &ldquo;posts&rdquo; }} {{ .Title }}
+&lt;!-- Show description if available or a truncated preview of the content --&gt; &lt;p&gt; {{ if .Description }} {{ .Description }} {{ else }} {{ .Content | truncate 150 }}... {{ end }} &lt;/p&gt; &lt;a href=&quot;{{ .Permalink }}&quot; class=&quot;read-more&quot;&gt;Read More&lt;/a&gt; &lt;/div&gt; {{ end }} {{ end }}
+" />
 <meta property="og:url" content="/showcase/" />
 <meta property="og:site_name" content="Terminal" />
 
@@ -182,22 +186,24 @@
 
   <div class="post-content"><div>
         <!-- raw HTML omitted -->
-<pre><code>      &lt;!-- Display the post description or a truncated content preview --&gt;
-      &lt;div class=&quot;post-description&quot;&gt;
-        {{ if .Description }}
-          &lt;p&gt;{{ .Description }}&lt;/p&gt;
-        {{ else }}
-          &lt;p&gt;{{ .Content | truncate 150 }}...&lt;/p&gt;
-        {{ end }}
-      &lt;/div&gt;
-
-      &lt;!-- Link to full post --&gt;
-      &lt;a href=&quot;{{ .Permalink }}&quot; class=&quot;read-more&quot;&gt;Read More&lt;/a&gt;
-    &lt;/article&gt;
-  {{ end }}
-{{ end }}
-</code></pre>
+<p>{{ range .Site.RegularPages }}
+{{ if eq .Section &ldquo;posts&rdquo; }} <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
+<!-- raw HTML omitted --><!-- raw HTML omitted -->{{ .Title }}<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<pre><code>  &lt;!-- Show description if available or a truncated preview of the content --&gt;
+  &lt;p&gt;
+    {{ if .Description }}
+      {{ .Description }}
+    {{ else }}
+      {{ .Content | truncate 150 }}...
+    {{ end }}
+  &lt;/p&gt;
+
+  &lt;a href=&quot;{{ .Permalink }}&quot; class=&quot;read-more&quot;&gt;Read More&lt;/a&gt;
+&lt;/div&gt;
+</code></pre>
+<p>{{ end }}
+{{ end }}</p>
 
       </div></div>
 
