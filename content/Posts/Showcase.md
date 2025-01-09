@@ -1,19 +1,20 @@
 ---
 title: "Showcase"
-date: 2025-01-09
 showcasePage: true
-excludeFmHome: true
+excludeFmHome: false
 ---
 
 <div class="showcase">
   <h1>Showcase</h1>
   <div class="post-previews">
-    {{ range where .Site.RegularPages "Section" "posts" }}
-      {{ if not .Params.excludeFromHome }} <!-- Exclude posts with excludeFromHome: true -->
+    {{ range .Site.RegularPages }}
+      {{ if eq .Section "posts" }} <!-- Only show posts from the "posts" section -->
         <article class="post-preview">
           <h2 class="post-title">
             <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
           </h2>
+
+          <!-- Display the post description or a truncated content preview -->
           <div class="post-description">
             {{ if .Description }}
               <p>{{ .Description }}</p>
@@ -21,6 +22,8 @@ excludeFmHome: true
               <p>{{ .Content | truncate 150 }}...</p>
             {{ end }}
           </div>
+
+          <!-- Link to full post -->
           <a href="{{ .Permalink }}" class="read-more">Read More</a>
         </article>
       {{ end }}
