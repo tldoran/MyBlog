@@ -7,7 +7,7 @@ paginate = 5
 
   # Directory name of your main content (default is `content/posts`).
   # The list of set content will show up on your index page (baseurl).
-  contentTypeName = "posts"
+  contentTypeName = "content/posts"
 
   # If you set this to 0, only submenu trigger will be visible.
   showMenuItems = 2
@@ -41,11 +41,6 @@ paginate = 5
   # Can be overridden in a page's front-matter.
   TocTitle = "Table of Contents"
 
-  [params.social]
-    instagram = "https://instagram.com/your_username"
-    linkedin = "https://linkedin.com/in/your_username"
-    github = "https://github.com/your_username"
-    gmail = "https://tldoran@duck.com"
 
 [languages]
   [languages.en]
