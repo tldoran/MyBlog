@@ -13,7 +13,7 @@ categories:
   - category1
   - category2
 featured: false
-hidden: false
+hidden: true
 draft: false
 ---
 
