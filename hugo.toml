@@ -1,46 +1,57 @@
 baseurl = "/"
 languageCode = "en-us"
+# Add it only if you keep the theme in the `themes` directory.
+# Remove it if you use the theme as a remote Hugo Module.
 theme = "terminal"
 paginate = 5
 
 [params]
+  # dir name of your main content (default is `content/posts`).
+  # the list of set content will show up on your index page (baseurl).
+  contentTypeName = "posts"
 
-  # Directory name of your main content (default is `content/posts`).
-  # The list of set content will show up on your index page (baseurl).
-  contentTypeName = "content/Posts"
-
-  # If you set this to 0, only submenu trigger will be visible.
+  # if you set this to 0, only submenu trigger will be visible
   showMenuItems = 2
 
-  # Show selector to switch language.
+  # show selector to switch language
   showLanguageSelector = false
 
-  # Set theme to full screen width.
+  # set theme to full screen width
   fullWidthTheme = true
 
-  # Center theme with default width.
+  # center theme with default width
   centerTheme = false
 
-  # If your resource directory contains an image called `cover.(jpg|png|webp)`,
+  # if your resource directory contains an image called `cover.(jpg|png|webp)`,
   # then the file will be used as a cover automatically.
-  # With this option, you don't have to put the `cover` param in a front-matter.
+  # With this option you don't have to put the `cover` param in a front-matter.
   autoCover = true
 
-  # Set post to show the last updated date.
-  # If you use Git, you can set `enableGitInfo` to `true` and then the post will automatically get the last updated date.
+  # set post to show the last updated
+  # If you use git, you can set `enableGitInfo` to `true` and then post will automatically get the last updated
   showLastUpdated = false
 
-  # Whether to show a page's estimated reading time.
-  readingTime = true
+  # Provide a string as a prefix for the last update date. By default, it looks like this: 2020-xx-xx [Updated: 2020-xx-xx] :: Author
+  # updatedDatePrefix = "Updated"
 
-  # Whether to show a table of contents.
-  # Can be overridden in a page's front-matter.
-  Toc = false
+  # whether to show a page's estimated reading time
+  # readingTime = true # default
 
-  # Set title for the table of contents.
-  # Can be overridden in a page's front-matter.
-  TocTitle = "Table of Contents"
+  # whether to show a table of contents
+  # can be overridden in a page's front-matter
+  # Toc = false # default
 
+  # set title for the table of contents
+  # can be overridden in a page's front-matter
+  # TocTitle = "Table of Contents" # default
+
+
+[params.twitter]
+  # set Twitter handles for Twitter cards
+  # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
+  # do not include @
+  creator = ""
+  site = ""
 
 [languages]
   [languages.en]
@@ -71,3 +82,4 @@ paginate = 5
           identifier = "about"
           name = "About"
           url = "/posts/about"
+    
