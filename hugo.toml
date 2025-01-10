@@ -87,8 +87,4 @@ paginate = 5
           name = "About"
           url = "/posts/about"
 
-        [[languages.en.menu.main]]
-          identifier = "showcase"
-          name = "Showcase"
-          url = "/posts/showcase"
     
