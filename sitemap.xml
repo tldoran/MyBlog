@@ -2,37 +2,39 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/tags/about/</loc>
+    <loc>https://dennehy.xyz/tags/about/</loc>
     <lastmod>2025-01-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/about/</loc>
+    <loc>https://dennehy.xyz/posts/about/</loc>
     <lastmod>2025-01-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/blog/</loc>
+    <loc>https://dennehy.xyz/tags/blog/</loc>
     <lastmod>2025-01-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/brain/</loc>
+    <loc>https://dennehy.xyz/tags/brain/</loc>
     <lastmod>2025-01-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>https://dennehy.xyz/categories/</loc>
     <lastmod>2025-01-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/creativity/</loc>
+    <loc>https://dennehy.xyz/tags/creativity/</loc>
     <lastmod>2025-01-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/my-second-brain/</loc>
+    <loc>https://dennehy.xyz/posts/my-second-brain/</loc>
     <lastmod>2025-01-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/pipeline/</loc>
+    <loc>https://dennehy.xyz/categories/pipeline/</loc>
     <lastmod>2025-01-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/</loc>
+    <loc>https://dennehy.xyz/posts/</loc>
     <lastmod>2025-01-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>https://dennehy.xyz/tags/</loc>
     <lastmod>2025-01-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/</loc>
+    <loc>https://dennehy.xyz/</loc>
     <lastmod>2025-01-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dennehy.xyz/posts/showcase/</loc>
   </url>
 </urlset>

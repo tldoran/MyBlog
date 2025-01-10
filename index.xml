@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Terminal</title>
-    <link>/</link>
+    <link>https://dennehy.xyz/</link>
     <description>Recent content on Terminal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 09 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://dennehy.xyz/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About Page</title>
-      <link>/posts/about/</link>
+      <link>https://dennehy.xyz/posts/about/</link>
       <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>/posts/about/</guid>
+      <guid>https://dennehy.xyz/posts/about/</guid>
       <description>&lt;p&gt;Welcome! This page is under construction still. Nothing interesting to be found here.&lt;/p&gt;</description>
       <content>&lt;p&gt;Welcome! This page is under construction still. Nothing interesting to be found here.&lt;/p&gt;
 </content>
@@ -20,10 +20,10 @@
     
     <item>
       <title>My Second Brain</title>
-      <link>/posts/my-second-brain/</link>
+      <link>https://dennehy.xyz/posts/my-second-brain/</link>
       <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>/posts/my-second-brain/</guid>
+      <guid>https://dennehy.xyz/posts/my-second-brain/</guid>
       <description>&lt;h2 id=&#34;hello-and-welcome-welcome-to-my-second-brain-my-new-blog-pipeline&#34;&gt;Hello and Welcome. Welcome to my second brain, my new blog pipeline&amp;hellip;&lt;/h2&gt;
 &lt;p&gt;During the last week I have spent a lot of time cooed up at home. Myself, my laptop and some AI&amp;rsquo;s.&lt;/p&gt;
 &lt;p&gt;It has helped me understand how vital of a time it is for all of us to portray what is in our minds and turn that into digestible content for ourselves. To create.&lt;/p&gt;
@@ -39,9 +39,20 @@
 &lt;p&gt;Having a clear path in mind doesn&amp;rsquo;t guarantee success, but not having one ought to guarantee failure.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;I was inspired by an idol of mine: &lt;a href=&#34;https://www.youtube.com/watch?v=dnE7c0ELEH8&#34;&gt;NetworkChuck&lt;/a&gt;, to setup my own blog pipeline.
-&lt;img src=&#34;/images/download%20%282%29.jpeg&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;
+&lt;img src=&#34;https://dennehy.xyz/images/download%20%282%29.jpeg&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;
 &lt;p&gt;I did this through using: &lt;a href=&#34;https://obsidian.md/download&#34;&gt;obsidian&lt;/a&gt; as my new note taking tool, paired with the &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; framework for deploying lightweight websites. I used the terminal Hugo theme (for my fellow tech enthusiasts) !&lt;/p&gt;
 &lt;p&gt;Access my &lt;a href=&#34;https://github.com/tldoran/MyBlog&#34;&gt;Github files&lt;/a&gt; for this project if you&amp;rsquo;d like to create something similar !&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Showcase</title>
+      <link>https://dennehy.xyz/posts/showcase/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dennehy.xyz/posts/showcase/</guid>
+      <description>&lt;p&gt;Welcome to the showcase! Here are some of our featured posts:&lt;/p&gt;</description>
+      <content>&lt;p&gt;Welcome to the showcase! Here are some of our featured posts:&lt;/p&gt;
 </content>
     </item>
     
