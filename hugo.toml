@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://dennehy.xyz"
 languageCode = "en-us"
 # Add it only if you keep the theme in the `themes` directory.
 # Remove it if you use the theme as a remote Hugo Module.
@@ -6,6 +6,10 @@ theme = "terminal"
 paginate = 5
 
 [params]
+
+  showcaseButtonEnabled = true
+  showcaseButtonText = "Show Post Previews"
+
   # dir name of your main content (default is `content/posts`).
   # the list of set content will show up on your index page (baseurl).
   contentTypeName = "posts"
@@ -82,4 +86,9 @@ paginate = 5
           identifier = "about"
           name = "About"
           url = "/posts/about"
+
+        [[languages.en.menu.main]]
+          identifier = "showcase"
+          name = "Showcase"
+          url = "/posts/showcase"
     
