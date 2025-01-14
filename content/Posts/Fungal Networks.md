@@ -4,7 +4,7 @@ excludeFmHome: false
 date: 2025-01-14
 author: Oran Dennehy
 description: How Fungal Networks Combat Climate Change
-readTime: ⏱️
+readTime: ⏱️ 3 min
 tags:
   - Fungi
   - Climate
