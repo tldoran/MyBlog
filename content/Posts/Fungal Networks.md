@@ -11,7 +11,7 @@ tags:
   - Networks
 categories:
   - Biology
-featured: false
+featured: true
 hidden: false
 draft: false
 ---
