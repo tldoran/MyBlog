@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://dennehy.xyz/categories/biology/</loc>
+    <lastmod>2025-01-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dennehy.xyz/categories/</loc>
+    <lastmod>2025-01-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dennehy.xyz/tags/climate/</loc>
+    <lastmod>2025-01-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dennehy.xyz/tags/fungi/</loc>
+    <lastmod>2025-01-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dennehy.xyz/posts/fungal-networks/</loc>
+    <lastmod>2025-01-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dennehy.xyz/tags/networks/</loc>
+    <lastmod>2025-01-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dennehy.xyz/posts/</loc>
+    <lastmod>2025-01-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dennehy.xyz/tags/</loc>
+    <lastmod>2025-01-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dennehy.xyz/</loc>
+    <lastmod>2025-01-14T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://dennehy.xyz/tags/about/</loc>
     <lastmod>2025-01-09T00:00:00+00:00</lastmod>
   </url><url>
@@ -14,9 +41,6 @@
     <loc>https://dennehy.xyz/tags/brain/</loc>
     <lastmod>2025-01-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dennehy.xyz/categories/</loc>
-    <lastmod>2025-01-09T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://dennehy.xyz/tags/creativity/</loc>
     <lastmod>2025-01-09T00:00:00+00:00</lastmod>
   </url><url>
@@ -25,16 +49,5 @@
   </url><url>
     <loc>https://dennehy.xyz/categories/pipeline/</loc>
     <lastmod>2025-01-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dennehy.xyz/posts/</loc>
-    <lastmod>2025-01-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dennehy.xyz/tags/</loc>
-    <lastmod>2025-01-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dennehy.xyz/</loc>
-    <lastmod>2025-01-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dennehy.xyz/posts/showcase/</loc>
   </url>
 </urlset>

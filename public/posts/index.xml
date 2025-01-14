@@ -6,7 +6,38 @@
     <description>Recent content in Posts on Terminal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 09 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://dennehy.xyz/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://dennehy.xyz/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fungi to Save The World</title>
+      <link>https://dennehy.xyz/posts/fungal-networks/</link>
+      <pubDate>Tue, 14 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://dennehy.xyz/posts/fungal-networks/</guid>
+      <description>&lt;p&gt;Fungal Networks consist of tiny threads of &lt;a href=&#34;https://www.britannica.com/science/mycelium&#34;&gt;mycelium&lt;/a&gt; (root structure of a fungus), that create symbiotic relationships with plants and trees to transfer water, minerals and essential nutrients.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Around 90% of all plant species depend on these mutually beneficial relationships to survive.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://dennehy.xyz/images/3vVYAQ2lKu-RvcnMr8XZdzQIwa-rEo-rCDG1PMHy0MM.png&#34; alt=&#34;Image Description&#34;&gt;
+Image: BBC&lt;/p&gt;
+&lt;p&gt;These organisms help slow down the rate at which co2 is released from the forests back to the atmosphere. With the correct mycology, the forests can sequester and store co2 at a much higher rate.&lt;/p&gt;</description>
+      <content>&lt;p&gt;Fungal Networks consist of tiny threads of &lt;a href=&#34;https://www.britannica.com/science/mycelium&#34;&gt;mycelium&lt;/a&gt; (root structure of a fungus), that create symbiotic relationships with plants and trees to transfer water, minerals and essential nutrients.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Around 90% of all plant species depend on these mutually beneficial relationships to survive.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://dennehy.xyz/images/3vVYAQ2lKu-RvcnMr8XZdzQIwa-rEo-rCDG1PMHy0MM.png&#34; alt=&#34;Image Description&#34;&gt;
+Image: BBC&lt;/p&gt;
+&lt;p&gt;These organisms help slow down the rate at which co2 is released from the forests back to the atmosphere. With the correct mycology, the forests can sequester and store co2 at a much higher rate.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;We analyzed 74,563 forest inventory plots that span 35 ecoregions in the contiguous USA and found that in ~77% of the ecoregions mixed mycorrhizal plots were more productive than plots where either arbuscular or ectomycorrhizal fungal-associated tree species were dominant.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;a href=&#34;https://pmc.ncbi.nlm.nih.gov/articles/PMC10011551/&#34;&gt;ref: NIH.gov&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The giant underground network of fungi that forests support has become known as the &lt;a href=&#34;https://www.bbc.co.uk/news/science-environment-59473960&#34;&gt;“Wood Wide Web”&lt;/a&gt;, but very little is known about it and its role in combating climate change
+![[screen-shot-2018-10-08-at-10-58-42.webp]]&lt;/p&gt;
+&lt;p&gt;Mycelium which extends more than 300 miles deep, can both harvest carbon form our atmosphere and then break some of the carbon into carbohydrates and act as food for plants.&lt;/p&gt;
+&lt;p&gt;Encouraging biodiversity in our forest&amp;rsquo;s will greatly bolster the creation of rich soils and it&amp;rsquo;s performance, by letting fungi grow.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;“Solutions are right underneath our feet,”
+- Paul Stamets 
+&lt;/code&gt;&lt;/pre&gt;
+</content>
+    </item>
+    
     <item>
       <title>About Page</title>
       <link>https://dennehy.xyz/posts/about/</link>
@@ -42,17 +73,6 @@
 &lt;img src=&#34;https://dennehy.xyz/images/download%20%282%29.jpeg&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;
 &lt;p&gt;I did this through using: &lt;a href=&#34;https://obsidian.md/download&#34;&gt;obsidian&lt;/a&gt; as my new note taking tool, paired with the &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; framework for deploying lightweight websites. I used the terminal Hugo theme (for my fellow tech enthusiasts) !&lt;/p&gt;
 &lt;p&gt;Access my &lt;a href=&#34;https://github.com/tldoran/MyBlog&#34;&gt;Github files&lt;/a&gt; for this project if you&amp;rsquo;d like to create something similar !&lt;/p&gt;
-</content>
-    </item>
-    
-    <item>
-      <title>Showcase</title>
-      <link>https://dennehy.xyz/posts/showcase/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://dennehy.xyz/posts/showcase/</guid>
-      <description>&lt;p&gt;Here are some of our featured posts:&lt;/p&gt;</description>
-      <content>&lt;p&gt;Here are some of our featured posts:&lt;/p&gt;
 </content>
     </item>
     
