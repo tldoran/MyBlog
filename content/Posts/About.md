@@ -14,4 +14,6 @@ hidden: true
 draft: false
 ---
 
-Welcome! This page is under construction still. Nothing interesting to be found here.
+ ## Welcome reader to my page, to my thoughts, to my ideas.
+
+	A Painter in my mind, Tell me what you see
