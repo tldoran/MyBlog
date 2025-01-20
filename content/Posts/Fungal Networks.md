@@ -31,7 +31,7 @@ These organisms help slow down the rate at which co2 is released from the forest
 
 
 The giant underground network of fungi that forests support has become known as the [“Wood Wide Web”](https://www.bbc.co.uk/news/science-environment-59473960), but very little is known about it and its role in combating climate change 
-![[screen-shot-2018-10-08-at-10-58-42.webp]]
+![Image Description](/images/wood-wide-web-scaled.jpg)
 
 
 Mycelium which extends more than 300 miles deep, can both harvest carbon form our atmosphere and then break some of the carbon into carbohydrates and act as food for plants.
